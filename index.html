@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- დაიწყო ჰედერი -->
+        <header>
+            <a class="header_logo" href="index.html">
+                <img src="images/Creative B.svg" alt="logo">
+            </a>
+            <nav>
+                <ul>
+                    <a class="header_text" href="">
+                        <li>Home</li>
+                    </a>
+                    <a class="header_text" href="">
+                        <li>Product</li>
+                    </a>
+                    <a href="index.html">
+                        <li class="header_contact">Contact</li>
+                    </a>
+                </ul>
+            </nav>
+            <a href="">
+                <img class="header_cart" src="images/cart.svg" alt="cart">
+            </a>
+        </header>
+        <!-- დაიწყო კონტენტი -->
+        <div class="content">
+            <p class="content_text">Contact Us</p>
+            <form>
+                <div class="grid_container">
+                    <div class="div_form">
+                        <label class="form_text" for="first_name">FIRST NAME</label>
+                        <input class="form_input" type="text" id="first_name" name="FIRSTNAME" value=""
+                            placeholder="First Name">
+                    </div>
+                    <div class="div_form">
+                        <label class="form_text" for="last_name">LAST NAME:</label>
+                        <input class="form_input" type="text" id="last_name" name="LASTNAME" value=""
+                            placeholder="Last Name">
+                    </div>
+                    <div class="div_form">
+                        <label class="form_text" for="age">AGE</label>
+                        <input class="form_input" type="number" id="age" name="AGE" value="" placeholder="Age">
+                    </div>
+                    <div class="div_form">
+                        <label class="form_text" for="email">EMAIL</label>
+                        <input class="form_input" type="text" id="email" name="EMAIL" value="" placeholder="Email">
+                    </div>
+
+                </div>
+
+                <div class="radio form_container1">
+                    <div class="radio_div">
+
+                        <h2>The schedule of work you are interested in</h2>
+
+                        <div class="text_schedule">
+
+                            <input class="input_style1" type="radio" id="full_time" name="schedule" value="full_time">
+                            <label class="radio_schedule" for="full_time">Full-Time</label>
+
+                            <input class="input_style1" type="radio" id="part_time" name="schedule" value="part_time">
+                            <label class="radio_schedule" for="part_time">Part-Time</label>
+
+                            <input class="input_style1" type="radio" id="remote" name="schedule" value="remote">
+                            <label class="radio_schedule" for="remote">Remote</label>
+
+                        </div>
+
+                    </div>
+                    <div class="radio_div">
+                        <h2>Select the programming languages, you know</h2>
+
+                        <div class="text_schedule">
+
+                            <input class="input_style2" type="checkbox" id="Angular" name="angular" value="angular">
+                            <label class="radio_schedule" for="Angular">Angular</label>
+
+                            <input class="input_style2" type="checkbox" id="Python" name="Python" value="Python">
+                            <label class="radio_schedule" for="Python">Python</label>
+
+                            <input class="input_style2" type="checkbox" id="Javascript" name="Javascript"
+                                value="Javascript">
+                            <label class="radio_schedule" for="Javascript">Javascript</label>
+
+                        </div>
+
+                    </div>
+                    <div class="radio_div">
+                        <h2>Attach any supporting documents (resume, CV, cover letter, etc.) </h2>
+                        <input class="input_file" type="file">
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="send" type="submit">SEND MESSAGE</button>
+                    <button class="reset" type="reset">RESET</button>
+                </div>
+            </form>
+        </div>
+
+
+        <footer>
+            <div class="div_footer">
+                <a href="">
+                    <img class="transition1" src="images/Facebook.svg" alt="">
+                </a>
+                <a href="">
+                    <img class="transition1" src="images/Instagram.svg" alt="">
+                </a>
+                <a href="">
+                    <img class="transition1" src="images/Twitter.svg" alt="">
+                </a>
+                <a href="">
+                    <img class="transition1" src="images/YouTube.svg" alt="">
+                </a>
+            </div>
+        </footer>
+
+
+    </div>
+
+</body>
+
+</html>
