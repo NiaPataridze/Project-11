@@ -2,6 +2,7 @@
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
+    /* border: 2px solid red; */
 }
 
 /* დაიწყო ჰედერი */
@@ -14,16 +15,16 @@ header {
     padding: 47px 75px;
 }
 
-nav {
+/* nav {
     display: flex;
-}
+} */
 
 ul {
     font-size: 36px;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     gap: 52px;
 }
 
@@ -46,12 +47,14 @@ li:hover{
 /* დაიწყო კონტენტი */
 
 .content{
-    max-width: 1440px;
-    width: 100%;
+    /* max-width: 1440px;
+    width: 100%; */
+    width: 90%;
+    margin: 114px auto 128px auto;
 }
 
 .form {
-    max-width: 1440px;
+    /* max-width: 1440px; */
     width: 100%;
 }
 
@@ -60,25 +63,28 @@ li:hover{
     color: #13345B;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
-    position: absolute;
+    /* position: absolute;
     top: 414px;
     left: 40%;
-    transform: translateY(-40%);
+    transform: translateY(-40%); */
+    text-align: center;
+    margin-bottom: 88px;
 }
 
 .grid_container {
+    width: 100%;
     /* display: flex; */
-    justify-content: center;
-    width: 89.58%;
+    /* justify-content: center;
+    width: 89.58%; */
     display: grid;
     grid-template-columns: 40% 40%;
-    column-gap: 190px;
+    /* column-gap: 190px; */
     grid-template-rows: 90px 90px;
     row-gap: 32px;
-    position: absolute;
+    /* position: absolute;
     top: 560px;
     left: 5%;
-    transform: translateY(-5%);
+    transform: translateY(-5%); */
 }
 
 .div_form {
@@ -101,19 +107,19 @@ li:hover{
     outline: none;
 }
 
-.radio {
+/* .radio {
     width: 100%;
     position: absolute;
     top: 892px;
-
-}
+} */
 
 .form_container1 {
     width: 74%;
-    padding-left: 75px;
+    /* padding-left: 75px; */
+    margin: 120px 0;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     gap: 64px;
 }
 
@@ -133,7 +139,7 @@ h2 {
 .text_schedule {
     width: 55%;
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     justify-content: space-between;
     align-items: center;
 }
@@ -166,16 +172,17 @@ h2 {
 
 .buttons {
     width: 100%;
-    position: absolute;
+    /* position: absolute;
     top: 1480px;
     padding-left: 75px;
-    padding-bottom: 130px;
+    padding-bottom: 130px; */
     display: flex;
-    gap: 30px;
+    justify-content: space-between;
+    /* gap: 30px; */
 }
 
 .send {
-    width: 630px;
+    /* width: 630px; */
     height: 108px;
     font-weight: 700;
     font-size: 36px;
@@ -186,7 +193,7 @@ h2 {
 }
 
 .reset {
-    width: 630px;
+    /* width: 630px; */
     height: 108px;
     font-weight: 700;
     font-size: 36px;
@@ -200,13 +207,14 @@ h2 {
 
 footer{
     background-color: #13345B;
-    max-width: 1440px;
+    /* max-width: 1440px; */
     width: 100%;
     height: 200px;
-    position: relative;
-    top: 1420px;
+    /* position: relative;
+    top: 1420px; */
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .div_footer{
     width: 50%;

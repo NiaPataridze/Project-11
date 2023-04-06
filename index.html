@@ -18,29 +18,34 @@
     <div class="container">
         <!-- დაიწყო ჰედერი -->
         <header>
+
             <a class="header_logo" href="index.html">
                 <img src="images/Creative B.svg" alt="logo">
             </a>
+
             <nav>
                 <ul>
-                    <a class="header_text" href="">
-                        <li>Home</li>
-                    </a>
-                    <a class="header_text" href="">
-                        <li>Product</li>
-                    </a>
-                    <a href="index.html">
-                        <li class="header_contact">Contact</li>
-                    </a>
+                    <li>
+                        <a class="header_text" href="">Home</a>
+                    </li>
+                    <li>
+                        <a class="header_text" href="">Product</a>
+                    </li>
+                    <li class="header_contact">
+                        <a href="index.html">Contact</a>
+                    </li>
                 </ul>
             </nav>
+
             <a href="">
                 <img class="header_cart" src="images/cart.svg" alt="cart">
             </a>
+
         </header>
         <!-- დაიწყო კონტენტი -->
         <div class="content">
-            <p class="content_text">Contact Us</p>
+            
+                <h2 class="content_text">Contact Us</h2>
             <form>
                 <div class="grid_container">
                     <div class="div_form">
@@ -59,7 +64,7 @@
                     </div>
                     <div class="div_form">
                         <label class="form_text" for="email">EMAIL</label>
-                        <input class="form_input" type="text" id="email" name="EMAIL" value="" placeholder="Email">
+                        <input class="form_input" type="email" id="email" name="EMAIL" value="" placeholder="Email">
                     </div>
 
                 </div>
@@ -103,7 +108,7 @@
                     </div>
                     <div class="radio_div">
                         <h2>Attach any supporting documents (resume, CV, cover letter, etc.) </h2>
-                        <input class="input_file" type="file">
+                        <input class="input_file" name="file" type="file">
                     </div>
                 </div>
                 <div class="buttons">
@@ -111,6 +116,7 @@
                     <button class="reset" type="reset">RESET</button>
                 </div>
             </form>
+            
         </div>
 
 
